@@ -4,6 +4,7 @@ import android.content.res.Configuration
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.LayoutInflater
 import android.widget.ImageView
@@ -79,7 +80,16 @@ class MainActivity : BaseActivity(), MapFragment.Container, LocalPhotoInfoFragme
     override fun clearLocalPhotoInfo() = localPhotoInfoFragment.clear()
 
     override fun onAddToMap() {
+    }
 
+    override fun onBackPressed() {
+        if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            binding.drawerLayout.closeDrawer(GravityCompat.START)
+        } else if (localPhotoInfoFragment.isDisplayed()) {
+            localPhotoInfoFragment.clear()
+        } else {
+            super.onBackPressed()
+        }
     }
 
     override fun onOpenPhoto(path: String, location: String, photo: ImageView) = navigator.startLocalPhoto(path, location, photo)

@@ -6,7 +6,7 @@
     </data>
 
     <FrameLayout
-        android:layout_width="200dp"
+        android:layout_width="@dimen/navigationMenuWidth"
         android:layout_height="120dp">
 
         <ImageView

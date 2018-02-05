@@ -2,7 +2,9 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="navigationMenuWidth">200dp</dimen>
+    <dimen name="navigationMenuWidth">260dp</dimen>
     <dimen name="infoWindowImageSize">160dp</dimen>
     <dimen name="infoWindowWidth">176dp</dimen>
+    <dimen name="splashInitDistance">-16dp</dimen>
+    <dimen name="splashFinalDistance">16dp</dimen>
 </resources>

@@ -56,7 +56,7 @@ class LocalPhotoInfoFragment : DaggerFragment() {
         binding.timestamp = localPhoto.timestamp
         binding.executePendingBindings()
         binding.root.visibility = View.VISIBLE
-        binding.root.animate().translationY(0f).setInterpolator(LinearOutSlowInInterpolator()).setDuration(300)
+        binding.root.animate().translationY(0f).setInterpolator(LinearOutSlowInInterpolator()).setDuration(100)
         addressesFromLocationLoader
                 .withLatitude(localPhoto.latitude)
                 .withLongitude(localPhoto.longitude)
@@ -76,7 +76,7 @@ class LocalPhotoInfoFragment : DaggerFragment() {
         binding.root.animate()
                 .translationY(binding.root.height.toFloat())
                 .setInterpolator(LinearOutSlowInInterpolator())
-                .setDuration(300)
+                .setDuration(100)
                 .withEndAction {
                     binding.root.visibility = View.GONE
                 }
