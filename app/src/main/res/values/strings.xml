@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Drone World Guide</string>
+    <string name="map">Map</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="location_permission_title">Location permission needed</string>
+    <string name="location_permission_message">I need permission to see your location to display your position on the map</string>
+    <string name="ok">OK</string>
+    <string name="anonymousUser">Not registered</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="noLoginRegister">Not registered?</string>
+    <string name="register">Register</string>
+    <string name="djiPhotosNotFound">Folder with DJI drone photos not found. Do you have DJI GO installed?</string>
+    <string name="allPermissionsRationaleTitle">Permissions needed</string>
+    <string name="allPermissionsRationaleMessage">I need access to your location to show it on the map. And to local storage to find your drone photos. Is it OK to grant me these permissions?</string>
+    <string name="missingPermissionsTitle">Missing permissions</string>
+    <string name="missingPermissionsMessage">I am missing some important permissions. Without them granted I can\'t function properly. Do you want to grant them or just continue with limited functionality?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="grant">Grant</string>
+    <string name="_continue">Continue</string>
+    <string name="addToMap">Add to map</string>
+
+    <string name="facebook_app_id" translatable="false">2006252669590205</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2006252669590205</string>
+</resources>

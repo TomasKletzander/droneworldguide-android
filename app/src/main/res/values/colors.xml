@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C2236</color>
+    <color name="colorPrimaryDark">#151B2D</color>
+    <color name="colorAccent">#F0C548</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="darkOverlay50">#881C2236</color>
+
+    <color name="placeMarker">#55aa55</color>
+    <color name="localPhotoMarker">#aa5555</color>
+</resources>
